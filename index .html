@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Dawn Mungwini- Portifolio</title>
+
+   <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Merriweather:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+  <style>
+  /*  body{
+     font-family : Sans Serif;
+     margin:2rem;
+    transition:background 0.3s , color 0.3s;}
+
+    body.dark-mode { 
+      background: #222;
+      color:#fff;
+    }
+
+    /* header{
+       text-align:center;
+       margin-bottom:2rem}
+
+     /*.projects ,.skills ,.contacts {
+         margin-top:2rem;
+        opacity:0;  /*hidden by default */
+     /* transition: opacity 0,5s ease /*fade-in animation}*/
+
+      /*.visible { opacity: 1 !important /*Show when scrolling to}*/
+
+  </style>
+</head>
+<body>
+  <!--Dark Mode Button-->
+  <button id="dark-mode-btn">Dark Mode</button>
+
+  <!--header-->
+  <header>
+    <div class="hero fade-in">
+    <h1>Hey! My name is <span style="color:lightskyblue">Dawn</span>.</h1>
+    <p class="typing lead">I'm a passionate web developer.</p>
+    </div>
+  </header>
+  
+  <main class="grid">
+  <!--Sections will animate on scroll-->
+  <section class="card fade-in">
+      <h2>My Projects</h2>
+     <h3>Project One</h3>
+      <div class="projects">
+        <div class="project">
+             <img src="./images/project1.PNG" alt="Screenshot of Project One" style="width: 100%; max-width: 400px; border-radius: 10px;">
+            <p style="margin:6px 0;color:var(--muted)">This project means a lot to me.
+
+              It is my first project and it made me realise that nothing is impossible.
+              
+              It is a basic web app designed to collect user data through a form. It includes input fields for name, email, and phone number.
+
+ i used  HTML and CSS, this project helped me practice layout, form design, and basic front-end structure.
+
+ I'm planning on adding JavaScript to make it interactive.
+
+This app helps in real-life survey systems used in education, business, and marketing.</p>
+            <a class="btn" href="#">View</a>
+          </div>
+           <div class="project">
+           
+   <div class="project">
+    <h3>Coming Soon....</h3>
+    <p style="margin:6px 0;color:var(--muted)">Building more projects—stay tuned!</p>
+    <a class="btn" href="#">Details</a>
+  </div>
+  </section>
+</div>
+
+  <aside class="card fade-in" style="height : fit-content">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+
+   <section class="contact">
+    <h2>Contact</h2>
+    <p> <a class="email-link" href="mailto:d.mungwini18@gmail.com">Email: d.mungwini18@gmail.com </a></p>
+    <p> <a href="https://github.com/smileon21">GitHub : smileon21</a></p>
+    <p> <a href="https://www.linkedin.com/in/dawn-mungwini-a51585345">LinkedIn </a></p>
+   </section>
+   <script src="./scripts/main.js"></script>
+  </aside>
+
+  
+    <footer style="text-align:center;margin-top:40px;color:var(--muted);font-size:14px">
+      <p>&copy; <span id="year"></span> 2025 Dawn Mungwini — Built with ❤️</p>
+    </footer>
+ </main>
+</div>
+</body>
+</html>
